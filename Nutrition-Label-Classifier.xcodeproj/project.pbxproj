@@ -1,0 +1,355 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AE548ED7243B1817007CA6FD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE548ED6243B1817007CA6FD /* AppDelegate.swift */; };
+		AE548ED9243B1817007CA6FD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE548ED8243B1817007CA6FD /* SceneDelegate.swift */; };
+		AE548EDB243B1817007CA6FD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE548EDA243B1817007CA6FD /* ViewController.swift */; };
+		AE548EDE243B1817007CA6FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE548EDC243B1817007CA6FD /* Main.storyboard */; };
+		AE548EE0243B181E007CA6FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE548EDF243B181E007CA6FD /* Assets.xcassets */; };
+		AE548EE3243B181F007CA6FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE548EE1243B181F007CA6FD /* LaunchScreen.storyboard */; };
+		AE548EEB243B1907007CA6FD /* RecognizedTextDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE548EEA243B1907007CA6FD /* RecognizedTextDataSource.swift */; };
+		AE548EED243B1B13007CA6FD /* LabelDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE548EEC243B1B13007CA6FD /* LabelDetailsViewController.swift */; };
+		AE548EFB243E02EB007CA6FD /* ner.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = AE548EFA243E02EB007CA6FD /* ner.mlmodel */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AE548ED3243B1817007CA6FD /* Nutrition-Label-Classifier.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nutrition-Label-Classifier.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE548ED6243B1817007CA6FD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AE548ED8243B1817007CA6FD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AE548EDA243B1817007CA6FD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AE548EDD243B1817007CA6FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AE548EDF243B181E007CA6FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AE548EE2243B181F007CA6FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AE548EE4243B181F007CA6FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE548EEA243B1907007CA6FD /* RecognizedTextDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecognizedTextDataSource.swift; sourceTree = "<group>"; };
+		AE548EEC243B1B13007CA6FD /* LabelDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelDetailsViewController.swift; sourceTree = "<group>"; };
+		AE548EFA243E02EB007CA6FD /* ner.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = ner.mlmodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE548ED0243B1817007CA6FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AE548ECA243B1817007CA6FD = {
+			isa = PBXGroup;
+			children = (
+				AE548ED5243B1817007CA6FD /* Nutrition-Label-Classifier */,
+				AE548ED4243B1817007CA6FD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AE548ED4243B1817007CA6FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE548ED3243B1817007CA6FD /* Nutrition-Label-Classifier.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE548ED5243B1817007CA6FD /* Nutrition-Label-Classifier */ = {
+			isa = PBXGroup;
+			children = (
+				AE548EFA243E02EB007CA6FD /* ner.mlmodel */,
+				AE548ED6243B1817007CA6FD /* AppDelegate.swift */,
+				AE548ED8243B1817007CA6FD /* SceneDelegate.swift */,
+				AE548EDA243B1817007CA6FD /* ViewController.swift */,
+				AE548EDC243B1817007CA6FD /* Main.storyboard */,
+				AE548EDF243B181E007CA6FD /* Assets.xcassets */,
+				AE548EE1243B181F007CA6FD /* LaunchScreen.storyboard */,
+				AE548EE4243B181F007CA6FD /* Info.plist */,
+				AE548EEA243B1907007CA6FD /* RecognizedTextDataSource.swift */,
+				AE548EEC243B1B13007CA6FD /* LabelDetailsViewController.swift */,
+			);
+			path = "Nutrition-Label-Classifier";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AE548ED2243B1817007CA6FD /* Nutrition-Label-Classifier */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE548EE7243B181F007CA6FD /* Build configuration list for PBXNativeTarget "Nutrition-Label-Classifier" */;
+			buildPhases = (
+				AE548ECF243B1817007CA6FD /* Sources */,
+				AE548ED0243B1817007CA6FD /* Frameworks */,
+				AE548ED1243B1817007CA6FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Nutrition-Label-Classifier";
+			productName = "Nutrition-Label-Classifier";
+			productReference = AE548ED3243B1817007CA6FD /* Nutrition-Label-Classifier.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AE548ECB243B1817007CA6FD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Suthar, Bhavin Udavji";
+				TargetAttributes = {
+					AE548ED2243B1817007CA6FD = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = AE548ECE243B1817007CA6FD /* Build configuration list for PBXProject "Nutrition-Label-Classifier" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AE548ECA243B1817007CA6FD;
+			productRefGroup = AE548ED4243B1817007CA6FD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE548ED2243B1817007CA6FD /* Nutrition-Label-Classifier */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE548ED1243B1817007CA6FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE548EE3243B181F007CA6FD /* LaunchScreen.storyboard in Resources */,
+				AE548EE0243B181E007CA6FD /* Assets.xcassets in Resources */,
+				AE548EDE243B1817007CA6FD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE548ECF243B1817007CA6FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE548EDB243B1817007CA6FD /* ViewController.swift in Sources */,
+				AE548EED243B1B13007CA6FD /* LabelDetailsViewController.swift in Sources */,
+				AE548EFB243E02EB007CA6FD /* ner.mlmodel in Sources */,
+				AE548ED7243B1817007CA6FD /* AppDelegate.swift in Sources */,
+				AE548ED9243B1817007CA6FD /* SceneDelegate.swift in Sources */,
+				AE548EEB243B1907007CA6FD /* RecognizedTextDataSource.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AE548EDC243B1817007CA6FD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE548EDD243B1817007CA6FD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AE548EE1243B181F007CA6FD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE548EE2243B181F007CA6FD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AE548EE5243B181F007CA6FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AE548EE6243B181F007CA6FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AE548EE8243B181F007CA6FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9UMCZPK5JX;
+				INFOPLIST_FILE = "Nutrition-Label-Classifier/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Nutrition-Label-Classifier.Nutrition-Label-Classifier";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AE548EE9243B181F007CA6FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9UMCZPK5JX;
+				INFOPLIST_FILE = "Nutrition-Label-Classifier/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Nutrition-Label-Classifier.Nutrition-Label-Classifier";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AE548ECE243B1817007CA6FD /* Build configuration list for PBXProject "Nutrition-Label-Classifier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE548EE5243B181F007CA6FD /* Debug */,
+				AE548EE6243B181F007CA6FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE548EE7243B181F007CA6FD /* Build configuration list for PBXNativeTarget "Nutrition-Label-Classifier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE548EE8243B181F007CA6FD /* Debug */,
+				AE548EE9243B181F007CA6FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AE548ECB243B1817007CA6FD /* Project object */;
+}
